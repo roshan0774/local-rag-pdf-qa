@@ -1,0 +1,2 @@
+# Full local stack (CPU or GPU). For CUDA builds of torch, see https://pytorch.org/get-started/locally/
+-e .[models]

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-pdf-qa"
+version = "0.1.0"
+description = "Local, private retrieval-augmented question answering over PDFs (FAISS + BGE + Qwen2.5), with page citations and a golden-set evaluator."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Roshan Yadav" }]
+dependencies = [
+  "langchain-core>=0.3",
+  "langchain-community>=0.3,<0.5",
+  "langchain-text-splitters>=0.3",
+  "faiss-cpu>=1.8",
+  "pypdf>=4.0",
+]
+
+[project.optional-dependencies]
+models = [
+  "langchain-huggingface>=0.1",
+  "sentence-transformers>=3.0",
+  "transformers>=4.45",
+  "torch>=2.3",
+  "accelerate>=0.30",
+]
+dev = ["pytest>=8", "reportlab>=4", "ruff>=0.5"]
+
+[project.scripts]
+rag-pdf-qa = "rag_pdf_qa.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+filterwarnings = ["ignore:`langchain-community` is being sunset:DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
