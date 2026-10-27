@@ -41,6 +41,7 @@ filterwarnings = ["ignore:`langchain-community` is being sunset:DeprecationWarni
 
 [tool.ruff]
 line-length = 120
+extend-exclude = ["notebooks"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
