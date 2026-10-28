@@ -97,7 +97,7 @@ def test_mmr_search_returns_k_docs(pdf, settings):
 
 def test_golden_retrieval_hit_rate(pdf, settings):
     pipe = RAGPipeline(build_index([pdf], settings), None, settings)
-    res = evaluate(pipe, load_golden(ROOT / "eval" / "golden.jsonl"), k=4, with_llm=False)
+    res = evaluate(pipe, load_golden(ROOT / "eval" / "golden_sample.jsonl"), k=4, with_llm=False)
     # Even the crude offline hashing embedder should find the right page most of the time.
     assert res["summary"]["hit@4"] >= 0.75
 

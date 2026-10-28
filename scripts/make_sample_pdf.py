@@ -1,6 +1,6 @@
 """Generate the sample PDF used by the demo, tests and golden eval set.
 
-Meridian Mutual is a FICTIONAL insurer. Every figure below is invented for demonstration.
+Bluestone Mutual is a FICTIONAL insurer. Every figure below is invented for demonstration.
 Usage: python scripts/make_sample_pdf.py [output.pdf]
 """
 
@@ -12,15 +12,15 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table
 
 PAGES = [
-    ("Meridian Mutual Insurance Company - FY2026 Annual Report", [
+    ("Bluestone Mutual Insurance Company - FY2026 Annual Report", [
         "This report is fictional and was generated for a retrieval-augmented generation demo. "
-        "Meridian Mutual is not a real company and none of the figures describe a real business.",
-        "Meridian Mutual is a policyholder-owned property and casualty insurer headquartered in Charlotte, "
+        "Bluestone Mutual is not a real company and none of the figures describe a real business.",
+        "Bluestone Mutual is a policyholder-owned property and casualty insurer headquartered in Charlotte, "
         "North Carolina. It writes personal auto, homeowners, and small commercial coverage in 14 states "
         "across the Southeast and Mid-Atlantic.",
     ]),
     ("Letter from the Chief Executive Officer", [
-        "Fiscal year 2026 was the strongest year in Meridian Mutual's history. Chief Executive Officer "
+        "Fiscal year 2026 was the strongest year in Bluestone Mutual's history. Chief Executive Officer "
         "Dana Whitfield highlighted record gross written premium and a return to underwriting profit.",
         "Gross written premium grew 11.4% to $2.84 billion, driven by rate actions in personal auto and "
         "new small commercial business in Georgia and Tennessee.",
@@ -34,7 +34,7 @@ PAGES = [
         "TABLE",
     ]),
     ("Claims Operations", [
-        "Meridian Mutual processed 412,000 claims in FY2026. Average claim cycle time fell from 14.2 days to "
+        "Bluestone Mutual processed 412,000 claims in FY2026. Average claim cycle time fell from 14.2 days to "
         "9.6 days after the rollout of automated first notice of loss intake.",
         "Hurricane Delphine in September 2026 generated 18,300 claims and $167 million in net catastrophe losses.",
         "Customer satisfaction with the claims experience reached a Net Promoter Score of 61.",
@@ -53,8 +53,8 @@ PAGES = [
         "Cyber risk is managed under a framework aligned to NIST CSF 2.0, with annual third-party penetration testing.",
     ]),
     ("Workforce and Community", [
-        "Meridian Mutual employed 3,450 people at fiscal year end, 38% of them in hybrid or remote roles.",
-        "Employees volunteered 21,000 hours, and the Meridian Foundation granted $6.5 million to community "
+        "Bluestone Mutual employed 3,450 people at fiscal year end, 38% of them in hybrid or remote roles.",
+        "Employees volunteered 21,000 hours, and the Bluestone Foundation granted $6.5 million to community "
         "organizations focused on disaster preparedness and financial literacy.",
     ]),
     ("Outlook for FY2027", [
@@ -86,10 +86,10 @@ def build(out: Path) -> Path:
             story.append(Spacer(1, 8))
         if i < len(PAGES) - 1:
             story.append(PageBreak())
-    SimpleDocTemplate(str(out), pagesize=LETTER, title="Meridian Mutual FY2026 Annual Report (fictional)").build(story)
+    SimpleDocTemplate(str(out), pagesize=LETTER, title="Bluestone Mutual FY2026 Annual Report (fictional)").build(story)
     return out
 
 
 if __name__ == "__main__":
-    target = Path(sys.argv[1] if len(sys.argv) > 1 else "data/sample/meridian_mutual_fy2026_report.pdf")
+    target = Path(sys.argv[1] if len(sys.argv) > 1 else "data/sample/bluestone_mutual_fy2026_report.pdf")
     print("wrote", build(target))

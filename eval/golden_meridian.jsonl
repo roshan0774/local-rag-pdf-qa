@@ -1,0 +1,26 @@
+{"question": "Who is Meridian Mutual's Chief Financial Officer?", "pages": [2], "answer_contains": ["Marcus Oyelaran"], "answerable": true, "type": "fact sheet"}
+{"question": "How many employees did the company have on December 31, 2026?", "pages": [2], "answer_contains": ["4,215"], "answerable": true, "type": "fact sheet"}
+{"question": "Which firm is the independent auditor?", "pages": [2], "answer_contains": ["Holloway & Prescott"], "answerable": true, "type": "fact sheet"}
+{"question": "Who is the Regional VP for the Midwest region?", "pages": [2], "answer_contains": ["Aisha Bello"], "answerable": true, "type": "fact sheet"}
+{"question": "What was the combined ratio in 2026?", "pages": [3], "answer_contains": ["89.2%"], "answerable": true, "type": "financial table"}
+{"question": "What was net income for fiscal 2026?", "pages": [3], "answer_contains": ["171.3"], "answerable": true, "type": "financial table"}
+{"question": "What was full-year net written premium for Personal Auto?", "pages": [3], "answer_contains": ["714.0"], "answerable": true, "type": "financial table"}
+{"question": "What was the Net Promoter Score for the Northeast region in January 2026?", "pages": [4], "answer_contains": ["48"], "answerable": true, "type": "monthly report"}
+{"question": "What weather or loss event affected the Midwest region in January 2026?", "pages": [4], "answer_contains": ["flood"], "answerable": true, "type": "monthly report"}
+{"question": "How many active staff did the Phoenix office report in July 2026?", "pages": [16], "answer_contains": ["699"], "answerable": true, "type": "monthly report"}
+{"question": "What was the Southeast region's Net Promoter Score in December 2026?", "pages": [26], "answer_contains": ["32"], "answerable": true, "type": "monthly report"}
+{"question": "What was the West region's Net Promoter Score in April 2026?", "pages": [11], "answer_contains": ["50"], "answerable": true, "type": "monthly report"}
+{"question": "What is the monthly premium for Basic personal auto in South Carolina?", "pages": [28], "answer_contains": ["$99"], "answerable": true, "type": "rate card"}
+{"question": "What is the monthly premium for Standard homeowners coverage in Texas?", "pages": [34], "answer_contains": ["$126"], "answerable": true, "type": "rate card"}
+{"question": "Which agent has ID AGT-5007 and in which state?", "pages": [38], "answer_contains": ["Rahul Brown", "NV"], "answerable": true, "type": "agent directory"}
+{"question": "Who is the policyholder on policy CP-700028?", "pages": [58], "answer_contains": ["Noah Young"], "answerable": true, "type": "policy register"}
+{"question": "What is the annual premium on policy CP-700028?", "pages": [58], "answer_contains": ["$38,933"], "answerable": true, "type": "policy register"}
+{"question": "Why was claim CLM-26-11679 denied?", "pages": [112], "answer_contains": ["predates"], "answerable": true, "type": "claims log"}
+{"question": "What is the claim amount for CLM-26-10096?", "pages": [112], "answer_contains": ["$199,081"], "answerable": true, "type": "claims log"}
+{"question": "What is the retention on Cat XL Layer 2?", "pages": [207], "answer_contains": ["$150M"], "answerable": true, "type": "reinsurance"}
+{"question": "When did the 2026 reinsurance program renew?", "pages": [207], "answer_contains": ["June 1"], "answerable": true, "type": "reinsurance"}
+{"question": "Who leads the Aggregate Stop Loss treaty?", "pages": [207], "answer_contains": ["Lloyd's Syndicate 4471"], "answerable": true, "type": "reinsurance"}
+{"question": "How does the report define rate on line?", "pages": [208], "answer_contains": ["limit"], "answerable": true, "type": "glossary"}
+{"question": "Who is Meridian Mutual's Chief Technology Officer?", "pages": [], "answer_contains": [], "answerable": false, "type": "unanswerable"}
+{"question": "What was Meridian Mutual's stock price at year end?", "pages": [], "answer_contains": [], "answerable": false, "type": "unanswerable"}
+{"question": "How many employees work in the London office?", "pages": [], "answer_contains": [], "answerable": false, "type": "unanswerable"}

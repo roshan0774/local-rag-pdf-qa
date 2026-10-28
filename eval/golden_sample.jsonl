@@ -1,4 +1,4 @@
-{"question": "What was Meridian Mutual's gross written premium in FY2026?", "pages": [2, 3], "answer_contains": ["2.84 billion"], "answerable": true}
+{"question": "What was Bluestone Mutual's gross written premium in FY2026?", "pages": [2, 3], "answer_contains": ["2.84 billion"], "answerable": true}
 {"question": "How much net income did the company report for FY2026?", "pages": [3], "answer_contains": ["214"], "answerable": true}
 {"question": "What was the combined ratio in FY2026?", "pages": [3], "answer_contains": ["94.2%"], "answerable": true}
 {"question": "Who is the chief executive officer?", "pages": [2], "answer_contains": ["Dana Whitfield"], "answerable": true}
@@ -7,8 +7,8 @@
 {"question": "What were the net catastrophe losses from Hurricane Delphine?", "pages": [4], "answer_contains": ["167 million"], "answerable": true}
 {"question": "What share of incoming claim documents does the AI document intake service process?", "pages": [5], "answer_contains": ["72%"], "answerable": true}
 {"question": "What is the retention on the catastrophe reinsurance program?", "pages": [6], "answer_contains": ["75 million"], "answerable": true}
-{"question": "How many employees did Meridian Mutual have at year end?", "pages": [7], "answer_contains": ["3,450"], "answerable": true}
+{"question": "How many employees did Bluestone Mutual have at year end?", "pages": [7], "answer_contains": ["3,450"], "answerable": true}
 {"question": "Which new states does the company plan to enter in FY2027?", "pages": [8], "answer_contains": ["Alabama", "Kentucky"], "answerable": true}
 {"question": "What combined ratio does management target for FY2027?", "pages": [8], "answer_contains": ["95%"], "answerable": true}
-{"question": "What was Meridian Mutual's stock price at the end of FY2026?", "pages": [], "answer_contains": [], "answerable": false}
+{"question": "What was Bluestone Mutual's stock price at the end of FY2026?", "pages": [], "answer_contains": [], "answerable": false}
 {"question": "Who is the company's chief financial officer?", "pages": [], "answer_contains": [], "answerable": false}
